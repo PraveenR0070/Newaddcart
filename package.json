@@ -13,9 +13,10 @@
     "test:tag": "npx playwright test --grep @tc1 --project=firefox --headed",
     "test:chromium": "npx playwright test --project=chromium --headed"
 
-    
+
 
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",

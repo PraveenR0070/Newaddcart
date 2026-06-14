@@ -25,7 +25,7 @@ const config={
     },
     {
       name:"firefox",
-      
+
       use:{
 
         broswername:'firefox',
@@ -37,6 +37,7 @@ const config={
     {
       name:"webkit",
       use:{
+        
 
         broswername:'webkit',
         headless:false,
