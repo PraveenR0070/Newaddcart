@@ -15,6 +15,8 @@ await page.waitForTimeout(3000);
 
 
 
+
+
 const vp = await pommanager.getjwlery();
 await vp.validatesub('Flower Girl Bracelet');
 await page.waitForTimeout(3000);

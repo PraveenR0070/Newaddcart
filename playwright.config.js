@@ -21,6 +21,7 @@ module.exports = defineConfig({
   retries: process.env.CI ? 1 : 0,
   /* Run tests with a single worker to avoid repeated browser launches. */
   workers: 1,
+  
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
