@@ -12,6 +12,9 @@
     "test:tc1": "npx playwright test tests/tests/tc1.spec.js --headed",
     "test:tag": "npx playwright test --grep @tc1 --project=firefox --headed",
     "test:chromium": "npx playwright test --project=chromium --headed"
+
+    
+
   },
   "keywords": [],
   "author": "",

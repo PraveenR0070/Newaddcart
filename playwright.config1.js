@@ -25,6 +25,7 @@ const config={
     },
     {
       name:"firefox",
+      
       use:{
 
         broswername:'firefox',
