@@ -1,5 +1,5 @@
 // @ts-check
-const { devices } = require('@playwright/test');
+const { expect,devices } = require('@playwright/test');
 
 const config={
   testDir: './tests',

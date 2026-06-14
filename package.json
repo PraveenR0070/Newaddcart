@@ -7,8 +7,11 @@
     "test": "tests"
   },
   "scripts": {
-    "webtests":"npx playwright test --headed",
-    "webtest":"npx playwright test --config playwright.config1.js --project=chromium"
+    "webtests": "npx playwright test --config playwright.config.js --project=chromium --workers=1 --headed",
+    "webtest": "npx playwright test --config playwright.config.js --project=chromium --workers=1",
+    "test:tc1": "npx playwright test tests/tests/tc1.spec.js --headed",
+    "test:tag": "npx playwright test --grep @tc1 --project=firefox --headed",
+    "test:chromium": "npx playwright test --project=chromium --headed"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +19,8 @@
   "devDependencies": {
     "@playwright/test": "^1.44.1",
     "@types/node": "^20.12.13"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
   }
 }
