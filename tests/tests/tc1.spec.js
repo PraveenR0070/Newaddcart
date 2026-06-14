@@ -2,11 +2,11 @@ const{test,expect}=require('@playwright/test')
 
 const{PomManager}=require('../pages/PomManager')
 
-test('loginpage',async({page})=>{
+test('loginpage', { tag: ['@tc1', '@smoke'] }, async({page})=>{
 const pommanager = new PomManager(page);
 const lp= await pommanager.getLoginpage();
 await lp.openurl();
-await lp.LoginPage('praveenpadigapati09@gmail.com','123456');
+await lp.LoginPage('praveenpadigapati09@gmail.com','Tester99');
 
 const hp= await pommanager.getHomepage();
 await hp.validatingheaders('Jewelry');
