@@ -20,18 +20,6 @@ async validating_cost(){
      const as=am.replaceAll('$','');
      const total =as[0]+as[1];
      console.log(total);
-     
-    
-     
-
-    
-
-
-   
-
-
-    
-
    }
 
 }
