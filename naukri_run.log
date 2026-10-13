@@ -1,0 +1,317 @@
+[2026-07-25T06:18:47.384Z] Retry 1/3 failed: page.goto: net::ERR_ABORTED at https://www.ambitionbox.com/reviews/experian-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=84d99c61b4d2437eac47f1c184131481
+Call log:
+[2m  - navigating to "https://www.ambitionbox.com/reviews/experian-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=84d99c61b4d2437eac47f1c184131481", waiting until "domcontentloaded"[22m
+
+[2026-07-25T06:24:28.883Z] Retry 1/3 failed: page.goto: net::ERR_ABORTED at https://www.ambitionbox.com/reviews/experian-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=84d99c61b4d2437eac47f1c184131481
+Call log:
+[2m  - navigating to "https://www.ambitionbox.com/reviews/experian-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=84d99c61b4d2437eac47f1c184131481", waiting until "domcontentloaded"[22m
+
+[2026-07-25T06:24:47.753Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:24:49.761Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:24:51.766Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:24:51.772Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:24:53.778Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:24:55.786Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:24:55.795Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:24:57.813Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:24:59.825Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:24:59.831Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:01.839Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:03.842Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:03.847Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:05.855Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:07.871Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:07.882Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:09.898Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:11.910Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:11.917Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:13.933Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:15.939Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:15.944Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:17.955Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:19.968Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:19.973Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:21.984Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:23.995Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:24.010Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:26.016Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:28.033Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:28.046Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:30.050Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:32.067Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:32.080Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:34.088Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:36.097Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:36.109Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:38.127Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:40.139Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:40.149Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:42.166Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:44.179Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:44.191Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:46.206Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:48.217Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:48.229Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:50.242Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:52.261Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:52.273Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:54.292Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:56.307Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:56.323Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:25:58.338Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:00.347Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:00.362Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:02.376Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:04.393Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:04.404Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:06.422Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:08.436Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:08.448Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:10.462Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:12.478Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:12.492Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:14.510Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:16.522Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:16.538Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:18.552Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:20.565Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:20.576Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:22.593Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:24.610Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:24.625Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:26.644Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:28.658Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:28.673Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:30.689Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:32.707Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:32.717Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:34.734Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:36.753Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:36.767Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:38.781Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:40.788Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:40.801Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:42.817Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:44.829Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:44.842Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:46.857Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:48.871Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:48.887Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:50.903Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:52.918Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:52.933Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:54.943Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:56.956Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:56.965Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:26:58.973Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:00.990Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:01.006Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:03.017Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:05.030Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:05.039Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:07.061Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:09.079Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:09.095Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:11.106Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:13.120Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:13.133Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:15.143Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:17.151Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:17.155Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:19.161Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:21.171Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:21.186Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:23.200Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:25.212Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:25.223Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:27.242Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:29.259Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:29.272Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:31.285Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:33.304Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:33.320Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:35.332Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:37.344Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:37.355Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:39.372Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:41.384Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:41.398Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:43.417Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:45.432Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:45.452Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:47.464Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:49.477Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:49.482Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:51.486Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T06:27:53.497Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:37.966Z] Retry 1/3 failed: page.goto: net::ERR_ABORTED at https://www.ambitionbox.com/reviews/cloud-angles-digital-transformation-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=84d99c61b4d2437eac47f1c184131481
+Call log:
+[2m  - navigating to "https://www.ambitionbox.com/reviews/cloud-angles-digital-transformation-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=84d99c61b4d2437eac47f1c184131481", waiting until "domcontentloaded"[22m
+
+[2026-07-25T10:38:39.973Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:41.988Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:41.994Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:44.005Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:46.015Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:46.022Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:48.028Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:50.041Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:50.047Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:52.067Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:54.079Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:54.084Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:56.088Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:58.093Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:38:58.098Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:00.113Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:02.119Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:02.126Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:04.131Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:06.136Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:06.140Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:08.144Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:10.150Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:10.156Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:12.160Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:14.166Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:14.172Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:16.175Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:18.192Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:18.234Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:20.238Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:22.255Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:22.259Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:24.261Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:26.277Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:26.284Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:28.300Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:30.315Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:30.321Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:32.333Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:34.335Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:34.339Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:36.354Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:38.357Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:38.363Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:40.384Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:42.386Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:42.390Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:44.402Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:46.407Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:46.413Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:48.419Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:50.421Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:50.424Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:52.433Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:54.447Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:54.451Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:56.460Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:58.477Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:39:58.482Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:00.485Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:02.499Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:02.504Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:04.508Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:06.524Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:06.530Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:08.547Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:10.554Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:10.560Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:12.567Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:14.568Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:14.573Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:16.582Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:18.596Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:18.602Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:20.617Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:22.629Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:22.633Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:24.644Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:26.648Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:26.652Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:28.667Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:30.673Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:30.678Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:32.692Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:34.707Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:34.712Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:36.715Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:38.717Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:38.723Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:40.734Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:42.750Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:42.755Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:44.771Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:46.789Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:46.796Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:48.812Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:50.816Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:50.822Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:52.837Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:54.847Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:54.853Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:56.873Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:58.891Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:40:58.898Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:00.915Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:02.920Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:02.926Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:04.933Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:06.945Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:06.950Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:08.958Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:10.974Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:10.978Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:12.993Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:15.008Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:15.014Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:17.022Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:19.039Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:19.043Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:21.056Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:23.063Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:23.075Z] Retry 1/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:25.089Z] Retry 2/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T10:41:27.104Z] Retry 3/3 failed: page.goto: Target page, context or browser has been closed
+[2026-07-25T11:07:27.109Z] Retry 1/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-25T11:07:27.616Z] Retry 2/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-25T11:07:32.906Z] Retry 1/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-25T11:07:33.410Z] Retry 2/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-25T11:07:49.479Z] Retry 1/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-25T11:07:49.992Z] Retry 2/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-25T11:08:51.028Z] Retry 1/3 failed: page.goto: net::ERR_ABORTED at https://www.naukri.com/job-listings-playwright-automation-tester-testvox-malappuram-4-to-8-years-240726506036
+Call log:
+[2m  - navigating to "https://www.naukri.com/job-listings-playwright-automation-tester-testvox-malappuram-4-to-8-years-240726506036", waiting until "domcontentloaded"[22m
+
+[2026-07-25T11:09:09.177Z] Retry 1/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-25T11:09:09.686Z] Retry 2/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-25T11:09:15.059Z] Retry 1/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-25T11:09:15.569Z] Retry 2/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-25T11:09:31.691Z] Retry 1/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-25T11:09:32.201Z] Retry 2/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-27T04:28:13.284Z] Retry 1/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-27T04:28:13.797Z] Retry 2/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-27T04:28:19.190Z] Retry 1/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-27T04:28:19.701Z] Retry 2/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-27T04:28:35.772Z] Retry 1/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-07-27T04:28:36.286Z] Retry 2/2 failed: ENOENT: no such file or directory, stat 'C:\ForHarness\Newaddcart\resume_QA.pdf'
+[2026-08-27T07:03:56.507Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-08-27.csv
+[2026-09-07T06:37:13.883Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-09-07.csv
+[2026-09-14T07:24:25.921Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-09-14.csv
+[2026-09-17T04:30:14.203Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-09-17.csv
+[2026-09-18T05:09:55.966Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-09-18.csv
+[2026-09-20T04:30:18.194Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-09-20.csv
+[2026-09-21T04:30:22.406Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-09-21.csv
+[2026-09-22T06:57:21.678Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-09-22.csv
+[2026-09-23T04:30:12.048Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-09-23.csv
+[2026-09-24T06:41:50.417Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-09-24.csv
+[2026-09-25T04:37:26.017Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-09-25.csv
+[2026-09-29T13:55:46.677Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-09-29.csv
+[2026-10-01T04:30:13.234Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-10-01.csv
+[2026-10-02T05:01:14.623Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-10-02.csv
+[2026-10-04T04:30:23.802Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-10-04.csv
+[2026-10-05T06:08:40.439Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-10-05.csv
+[2026-10-08T04:33:41.790Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-10-08.csv
+[2026-10-10T04:33:15.649Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-10-10.csv
+[2026-10-12T04:30:21.474Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-10-12.csv
+[2026-10-13T04:40:42.730Z] Created daily job file snapshot: C:\ForHarness\Newaddcart\new\naukri_jobs_2026-10-13.csv

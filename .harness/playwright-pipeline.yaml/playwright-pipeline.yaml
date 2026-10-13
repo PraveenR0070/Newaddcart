@@ -1,0 +1,51 @@
+pipeline:
+  name: Naukri Daily Scrape
+  identifier: naukri_daily_scrape
+  projectIdentifier: your_project_id
+  orgIdentifier: your_org_id
+  properties:
+    ci:
+      codebase:
+        connectorRef: your_git_connector
+        repoName: Newaddcart
+        build:
+          type: branch
+          spec:
+            branch: main
+  stages:
+    - stage:
+        name: Run Naukri Daily Job
+        identifier: run_naukri_daily_job
+        type: CI
+        spec:
+          cloneCodebase: true
+          execution:
+            steps:
+              - step:
+                  type: Run
+                  name: Install Node dependencies
+                  identifier: install_deps
+                  spec:
+                    shell: Sh
+                    command: |
+                      cd /harness/Newaddcart
+                      npm install
+              - step:
+                  type: Run
+                  name: Run daily Naukri scraper
+                  identifier: run_scraper
+                  spec:
+                    shell: Sh
+                    command: |
+                      cd /harness/Newaddcart
+                      npm run daily:naukri
+  triggers:
+    - trigger:
+        name: Daily 10 AM
+        identifier: daily_10_am
+        source:
+          type: Scheduled
+          spec:
+            cron: "0 10 * * *"
+        action:
+          type: StartPipeline

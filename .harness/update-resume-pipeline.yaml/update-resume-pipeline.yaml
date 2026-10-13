@@ -1,0 +1,62 @@
+pipeline:
+  name: Naukri Daily Resume Update
+  identifier: naukri_daily_resume_update
+  projectIdentifier: newd
+  orgIdentifier: default
+  properties:
+    ci:
+      codebase:
+        connectorRef: your_git_connector
+        repoName: Newaddcart
+        build:
+          type: branch
+          spec:
+            branch: newcode
+  stages:
+    - stage:
+        name: Update Naukri Resume
+        identifier: update_naukri_resume
+        type: CI
+        spec:
+          cloneCodebase: true
+          execution:
+            steps:
+              - step:
+                  type: Run
+                  name: Install Node dependencies
+                  identifier: install_deps
+                  spec:
+                    shell: Sh
+                    command: |
+                      cd /harness/Newaddcart
+                      npm ci
+                      npx playwright install --with-deps chromium
+              - step:
+                  type: Run
+                  name: Update Naukri resume
+                  identifier: update_resume
+                  spec:
+                    shell: Sh
+                    command: |
+                      cd /harness/Newaddcart
+                      npm run daily:update-resume
+                    envVariables:
+                      CI: "true"
+                      NAUKRI_USER: <+secrets.getValue("NAUKRI_USER")>
+                      NAUKRI_PASS: <+secrets.getValue("NAUKRI_PASS")>
+                      SMTP_HOST: <+secrets.getValue("SMTP_HOST")>
+                      SMTP_PORT: "587"
+                      SMTP_SECURE: "false"
+                      SMTP_USER: <+secrets.getValue("SMTP_USER")>
+                      SMTP_PASS: <+secrets.getValue("SMTP_PASS")>
+                      RESUME_NOTIFICATION_TO: <+secrets.getValue("RESUME_NOTIFICATION_TO")>
+  triggers:
+    - trigger:
+        name: Daily 9 AM
+        identifier: daily_9_am
+        source:
+          type: Scheduled
+          spec:
+            cron: "0 9 * * *"
+        action:
+          type: StartPipeline
