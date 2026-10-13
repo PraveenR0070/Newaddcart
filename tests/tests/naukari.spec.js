@@ -1,7 +1,14 @@
+require('dotenv').config();
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 const csv = require('csv-parser');
+
+const RESUME_CANDIDATES = [
+  path.resolve(__dirname, '..', '..', 'PraveenReddy_Padigapati_Resume.pdf'),
+  path.resolve(__dirname, '..', '..', 'resume_QA.pdf')
+];
+const RESUME_PATH = RESUME_CANDIDATES.find(fs.existsSync) || RESUME_CANDIDATES[0];
 
 // Simple run logger
 const LOG_FILE = path.resolve(__dirname, '..', '..', 'naukri_run.log');
@@ -64,6 +71,19 @@ function getDailyCsvPaths() {
   return { dailyCsvPath, fallbackCsvPath };
 }
 
+function ensureTodaysJobFile() {
+  const { dailyCsvPath, fallbackCsvPath } = getDailyCsvPaths();
+  const today = getTodayDateStamp();
+
+  if (!fs.existsSync(dailyCsvPath)) {
+    const header = 'Job Title,Company,Location,Experience,Salary,Skills,Posted Date,Link\n';
+    fs.writeFileSync(dailyCsvPath, header);
+    runLog(`Created new daily file for ${today}: ${dailyCsvPath}`);
+  }
+
+  return { dailyCsvPath, fallbackCsvPath };
+}
+
 function isWithinOneDayPosted(postedDate) {
   if (!postedDate) return false;
 
@@ -101,6 +121,11 @@ function isTargetLocation(location) {
 }
 
 (async () => {
+  if (!process.env.NAUKRI_USER || !process.env.NAUKRI_PASS) {
+    console.error('Missing Naukri login settings: set NAUKRI_USER and NAUKRI_PASS.');
+    process.exit(1);
+  }
+
   const browser = await chromium.launch({ headless: false });
   const context = await browser.newContext({
     userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
@@ -162,7 +187,7 @@ function isTargetLocation(location) {
           try { await target.waitForLoadState('domcontentloaded', { timeout: 5000 }); } catch (e) {}
           // Try to upload resume if file input present
           if ((await target.locator('input[type=file]').count()) > 0) {
-            try { await retry(() => target.locator('input[type=file]').first().setInputFiles('resume_QA.pdf'), 2, 500); } catch (e) { console.warn('File upload failed on', hostname, e.message); }
+            try { await retry(() => target.locator('input[type=file]').first().setInputFiles(RESUME_PATH), 2, 500); } catch (e) { console.warn('File upload failed on', hostname, e.message); }
           }
         });
 
@@ -179,12 +204,99 @@ function isTargetLocation(location) {
   const response = await page.goto('https://www.naukri.com/nlogin/login', { waitUntil: 'networkidle' });
   console.log('Login page status:', response && response.status());
     await retry(() => page.waitForSelector('xpath=//input[@id="usernameField"]', { timeout: 30000 }), 3, 1000);
-    await retry(() => page.fill('xpath=//input[@id="usernameField"]', 'praveenpadigapati09@gmail.com'), 3, 500);
-    await retry(() => page.fill('xpath=//input[@id="passwordField"]', 'Telangana@9988'), 3, 500);
+    await retry(() => page.fill('xpath=//input[@id="usernameField"]', process.env.NAUKRI_USER), 3, 500);
+    await retry(() => page.fill('xpath=//input[@id="passwordField"]', process.env.NAUKRI_PASS), 3, 500);
     await retry(() => page.locator('button[type="submit"]').first().click(), 3, 500);
   await page.waitForLoadState('networkidle');
 
-  const { dailyCsvPath, fallbackCsvPath } = getDailyCsvPaths();
+  async function clickViewProfile() {
+    const selectors = [
+      'a[href*="/mnjuser/profile"]',
+      'a:has-text("View & Update Profile")',
+      'text=View & Update Profile',
+      'a:has-text("View and Update Profile")',
+      'text=/View.*Profile|Update.*Profile/i'
+    ];
+
+    for (const sel of selectors) {
+      const loc = page.locator(sel).first();
+      try {
+        if (await loc.count() === 0) continue;
+        await loc.scrollIntoViewIfNeeded();
+        await loc.click({ timeout: 15000 });
+        console.log('Clicked profile link using selector:', sel);
+        return true;
+      } catch (e) {
+        // try next selector
+      }
+    }
+
+    try {
+      await page.goto('https://www.naukri.com/mnjuser/profile?id=&altresid', { waitUntil: 'domcontentloaded', timeout: 60000 });
+      console.log('Fallback navigation to profile page completed.');
+      return true;
+    } catch (e) {
+      console.warn('Could not click or navigate to profile page:', e.message || e);
+      return false;
+    }
+  }
+
+  console.log('Login complete. Opening View & Update Profile from the logged-in homepage...');
+  await page.waitForTimeout(5000);
+  const profileOpened = await clickViewProfile();
+
+  if (profileOpened) {
+    console.log('Waiting for the profile page to finish loading before resume update...');
+    await page.waitForTimeout(8000);
+    await page.waitForURL(/mnjuser\/profile/, { timeout: 30000 }).catch(() => {});
+
+    console.log('Looking for Update Resume action on the profile page...');
+    const resumeButtons = [
+      'button:has-text("Update resume")',
+      'button:has-text("Update Resume")',
+      'button:has-text("Upload resume")',
+      'button:has-text("Upload Resume")',
+      'a:has-text("Update resume")',
+      'a:has-text("Update Resume")',
+      'text=/Update.*resume|Upload.*resume/i',
+      'button >> text=resume',
+      'a >> text=resume'
+    ];
+
+    let resumeUpdated = false;
+    for (const sel of resumeButtons) {
+      const loc = page.locator(sel).first();
+      try {
+        if (await loc.count() === 0) continue;
+        await loc.scrollIntoViewIfNeeded();
+        await loc.click({ timeout: 20000 });
+        console.log('Clicked resume update action using selector:', sel);
+        resumeUpdated = true;
+        break;
+      } catch (e) {
+        // try next selector
+      }
+    }
+
+    if (!resumeUpdated) {
+      console.log('Resume update action not found on the profile page; trying direct resume upload input fallback...');
+    }
+
+    const resumeInput = page.locator('input[type="file"], input[id*="resume"], input[name*="resume"], input[type="file"]').first();
+    try {
+      if (await resumeInput.count() > 0) {
+        await resumeInput.setInputFiles(RESUME_PATH);
+        console.log('Resume attached using profile upload input.');
+      }
+    } catch (e) {
+      console.warn('Could not attach resume from profile upload field:', e.message || e);
+    }
+  }
+
+  console.log(profileOpened ? 'Profile page opened. Pausing for 30 seconds before processing jobs...' : 'Profile page could not be opened; continuing after short pause...');
+  await page.waitForTimeout(30000);
+
+  const { dailyCsvPath, fallbackCsvPath } = ensureTodaysJobFile();
   const csvPath = fs.existsSync(dailyCsvPath) ? dailyCsvPath : fallbackCsvPath;
 
   if (!fs.existsSync(csvPath)) {
@@ -289,7 +401,7 @@ function isTargetLocation(location) {
             const fileInputs = await targetPage.$$eval('input[type=file]', els => els.map(e => e.id || e.name || e.className || 'file'));
             if (fileInputs.length > 0) {
               const fileLoc = targetPage.locator('input[type=file]').first();
-              try { await retry(() => fileLoc.setInputFiles('resume_QA.pdf'), 2, 500); } catch (e) { console.warn('Failed to set resume file on', jobLink, e.message); }
+              try { await retry(() => fileLoc.setInputFiles(RESUME_PATH), 2, 500); } catch (e) { console.warn('Failed to set resume file on', jobLink, e.message); }
             }
 
             applied = true;
@@ -305,7 +417,7 @@ function isTargetLocation(location) {
         }
 
         if (await page.locator('#resumeUpload').count() > 0) {
-          await page.setInputFiles('#resumeUpload', 'resume_QA.pdf');
+          await page.setInputFiles('#resumeUpload', RESUME_PATH);
         }
 
         if (await page.locator('#coverLetter').count() > 0) {
